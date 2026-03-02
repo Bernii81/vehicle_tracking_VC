@@ -42,3 +42,4 @@ def generar_tots_resultats(opcio, test_mat, llindar, alpha, beta, mitjana, desvi
             mask = tasca_4(alpha, beta, mitjana, desviacio, test_mat[i])
         results_seq.append(mask)
     results_seq = np.array(results_seq)
+    return results_seq
