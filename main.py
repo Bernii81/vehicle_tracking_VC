@@ -18,6 +18,7 @@ def main():
     opcio = 4 ## 3 o 4, quina Tasca/Mètode volem utilitzar per defecte 4
 
     res = FuncionsPP.generar_tots_resultats(opcio, test_mat, llindar, alpha, beta, mitjana, desviacio) # (opcio, test_mat, llindar, alpha, beta, mitjana, desviacio)
+
     utils.gravar_video(res)
 
 
