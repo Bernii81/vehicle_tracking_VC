@@ -21,6 +21,7 @@ def main():
 
     utils.gravar_video(res)
 
+    print("prova")
 
 if __name__ == "__main__":
     main()
